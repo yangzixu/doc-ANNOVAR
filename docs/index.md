@@ -1,19 +1,19 @@
 # ANNOVAR Documentation
 
-ANNOVAR is an efficient software tool to utilize update-to-date information to functionally annotate genetic variants detected from diverse genomes (including human genome hg18, hg19, hg38, as well as mouse, worm, fly, yeast and many others). Given a list of variants with chromosome, start position, end position, reference nucleotide and observed nucleotides, ANNOVAR can perform:
+are transferred to AWS S3, except a few large (>100GB) files. Please report any problem that you see.
+
+June 16 2019: The hosting provider deleted all ANNOVAR files and I am in the process of finding alternative solutions. Hopefully ANNOVAR database will be online again early next  is an efficient software tool to utilize update-to-date information to functionally annotate genetic variants detected from diverse genomes (including human genome hg18, hg19, hg38, as well as mouse, worm, fly, yeast and many others). Given a list of variants with chromosome, start position, end position, reference nucleotide and observed nucleotides, ANNOVAR can perform:
 
 - **Gene-based annotation**: identify whether SNPs or CNVs cause protein coding changes and the amino acids that are affected. Users can flexibly use RefSeq genes, UCSC genes, ENSEMBL genes, GENCODE genes, AceView genes, or many other gene definition systems.
 - **Region-based annotation**: identify variants in specific genomic regions, for example, conserved regions among 44 species, predicted transcription factor binding sites, segmental duplication regions, GWAS hits, database of genomic variants, DNAse I hypersensitivity sites, ENCODE H3K4Me1/H3K4Me3/H3K27Ac/CTCF sites, ChIP-Seq peaks, RNA-Seq peaks, or many other annotations on genomic intervals.
-- **Filter-based annotation**: identify variants that are documented in specific databases, for example, whether a variant is reported in dbSNP,  what is the allele frequency in the 1000 Genome Project, NHLBI-ESP 6500 exomes or Exome Aggregation Consortium, calculate the SIFT/PolyPhen/LRT/MutationTaster/MutationAssessor/FATHMM/MetaSVM/MetaLR scores, find intergenic variants with GERP++ score < 2, or many other annotations on specific mutations.
+- **FilANNOVARter-based annotation**: identify variants that are documented in specific databases, for example, whether a variant is reported in dbSNP,  what is the allele frequency in the 1000 Genome Project, NHLBI-ESP 6500 exomes or Exome Aggregation Consortium, calculate the SIFT/PolyPhen/LRT/MutationTaster/MutationAssessor/FATHMM/MetaSVM/MetaLR scores, find intergenic variants with GERP++ score < 2, or many other annotations on specific mutations.
 - **Other functionalities**: Retrieve the nucleotide sequence in any user-specific genomic positions in batch, identify a candidate gene list for Mendelian diseases from exome data, and other utilities.
 
 Please click the menu items to navigate through this website. If you have questions, comments and bug reports, please post them in the Disqus comment form in this website (if you do not receive a reply within 7 days, post it again, since sometimes I miss the Disqus notification email) or email me directly kaichop gmail.com. Thank you very much for your help and support!
 
 ---
 
-![new](img/new.png)2019Jun17: All ANNOVAR databases are transferred to AWS S3, except a few large (>100GB) files. Please report any problem that you see.
-
-June 16 2019: The hosting provider deleted all ANNOVAR files and I am in the process of finding alternative solutions. Hopefully ANNOVAR database will be online again early next week.
+![new](img/new.png)2019Jun17: All ANNOVAR databases week.
 
 May 2019: We are in the process of moving ANNOVAR server to a different hosting vendor. There is no need to email me about the -downdb problem. If you have an urgent need for the software itself, you can email me to get a URL link to download, but the DB will not be available for a few days.
 
